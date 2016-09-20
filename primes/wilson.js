@@ -2,8 +2,7 @@
 
 Wilson’s theorem states that a natural number p > 1 is a prime number if and only if 
  	
-		(p - 1) ! ≡  -1   mod p
-OR  (p - 1) ! ≡  (p-1) mod p
+(p - 1) ! ≡  -1   mod p
  
 Example - 
 
