@@ -37,8 +37,6 @@ function knpsck(w, wt, val, n) {
 			// when (n-1)th item is less given weight j
 			else if (wt[i-1] <= j) {
 
-				console.log('hello - ' + wt[i-1]);
-
 				L[i][j] = max(val[i-1] + L[i-1][j-wt[i-1]], L[i-1][j]);
 	
 			}		
@@ -49,19 +47,18 @@ function knpsck(w, wt, val, n) {
 	}
 
 	
-	console.log('n- ' + n + ' w - ' + w);
+	console.log('n - ' + n + ' w - ' + w);
 	return L[n][w];
 
 }
 
 function max(a, b) {
 	
-	console.log('max value on iteration - ' + Math.max(a, b));
 	return Math.max(a, b);
 
 }
 
-var values = [60, 100, 120];
+var values = [60, 250, 420];
 var weights = [10, 20, 30];
 var len = 3;
 var maxw = 50;
