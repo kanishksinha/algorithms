@@ -9,7 +9,10 @@ The sieve of Eratosthenes is one of the most efficient ways to find all primes s
 
 Source - geeksforgeeks
 
-Additional Info - Prime numbers tested upto 50000000
+Additional Info - 
+
+# Prime numbers tested upto 50000000
+# Time taken - 2s
 
  */
 
@@ -43,7 +46,7 @@ function sieve(n) {
 		}
 	}
 
-	console.log('Primes are = > ' + result);
+	console.log('Primes are = > \n' + result + '\n');
 }
 
 var k = 500;
