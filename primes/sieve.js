@@ -11,10 +11,12 @@ Source - geeksforgeeks
 
 Additional Info - 
 
-# Prime numbers tested upto 50000000
-# Time taken - 2s
+# Prime numbers tested upto 50000000, Time taken - 2s
 
- */
+# Time - O(nloglogn)
+# Space - O(n)
+
+*/
 
 var result = [];
 
@@ -49,5 +51,5 @@ function sieve(n) {
 	console.log('Primes are = > \n' + result + '\n');
 }
 
-var k = 500;
+var k = 50000;
 sieve(k);
