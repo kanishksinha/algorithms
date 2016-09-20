@@ -7,6 +7,8 @@ For example, if n is 10, the output should be “2, 3, 5, 7″. If n is 20, the 
 
 The sieve of Eratosthenes is one of the most efficient ways to find all primes smaller than n when n is smaller than 10 million or so.
 
+Source - geeksforgeeks
+
  */
 
 var result = [];
