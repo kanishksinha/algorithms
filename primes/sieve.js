@@ -51,5 +51,5 @@ function sieve(n) {
 	console.log('Primes are = > \n' + result + '\n');
 }
 
-var k = 50000;
+var k = 10000000;
 sieve(k);
